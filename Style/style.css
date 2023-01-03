@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Staatliches&display=swap");
+.cabecera {
+  min-height: 100vh;
+  background-image: url(https://cochesnuevos.autofacil.es/img/BMW_I4-2022.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .cabecera {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 70vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cabecera {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 80vh;
+  }
+}
+.cabecera-menu {
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .cabecera-menu {
+    display: flex;
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cabecera-menu {
+    display: flex;
+    padding: 40px;
+  }
+}
+.cabecera-menu_div1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .cabecera-menu_div1 {
+    display: flex;
+    width: 79%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cabecera-menu_div1 {
+    display: flex;
+    width: 79%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+.cabecera-menu_div1-ul1 {
+  border-bottom: solid;
+  border-bottom-color: white;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .cabecera-menu_div1-ul1 {
+    border-top: solid;
+    border-top-color: white;
+    padding-top: 10px;
+    border-bottom: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cabecera-menu_div1-ul1 {
+    border-top: solid;
+    border-top-color: white;
+    padding-top: 10px;
+    border-bottom: none;
+  }
+}
+.cabecera-menu_div2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .cabecera-menu_div2 {
+    width: 50%;
+    padding-top: 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cabecera-menu_div2 {
+    width: 50%;
+    padding-top: 0px;
+  }
+}
+
+img {
+  width: 3vh;
+}
+
+.menus {
+  color: white;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .menus {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .menus {
+    font-size: 20px;
+  }
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 50px;
+  color: rgb(249, 249, 177);
+}
+@media screen and (min-width: 768px) {
+  .div3 {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .div3 {
+    display: none;
+  }
+}
+
+.div4 {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .div4 {
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 0.3em;
+  }
+}
+@media screen and (min-width: 992px) {
+  .div4 {
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 0.3em;
+  }
+}
+
+button {
+  text-decoration: none;
+  padding: 5px 50px 5px 50px;
+  color: #000000;
+  background-color: #bdcce1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
